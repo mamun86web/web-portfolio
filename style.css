@@ -1,4 +1,5 @@
 body{
+    margin: 0px;
     font-family: 'Playfair Display', serif;
 }
 h1{
@@ -15,4 +16,20 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    background-image: linear-gradient(45deg, lightsalmon, red );
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-weight: 700;
+    
 }
